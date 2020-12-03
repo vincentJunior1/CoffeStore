@@ -130,166 +130,55 @@
     font-size: 17px;
   }
 
-  main .container-information {
+  main .information {
     background-color: white;
     position: relative;
     margin: 0px auto;
-    bottom: -120px;
+    top: -100px;
     height: 150px;
     border-radius: 20px;
     box-shadow: 0px 2px 6px black;
     text-align: center;
     align-items: center;
     line-height: 5px;
+    padding: 60px 0px;
   }
-
-  main .container-information .container {
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-between;
-    /* margin: 0 auto; */
-  }
-
-  /*  */
-
-  /* main .container-information .container .color {
-    margin-top: 5px;
-    position: absolute;
-    left: 0px;
-    background-color: #ffba33;
-    width: 55px;
-    height: 55px;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 70px;
+  /* main .information .row.rec {
+    margin-left: 100px;
   } */
 
-  main .container-information .container .Stories {
-    flex: 1;
-    /* left: 0px; */
-    /* width: 200px; */
-    /* left: -250px; */
-    /* margin: 0px auto; */
-  }
-
-  main .container-information .container .customer {
-    flex: 1;
-    /* left: 0px; */
-    /* margin: 0px auto; */
-  }
-
-  main .container-information .container .staff {
-    flex: 1;
-    /* margin: 0px auto; */
-  }
-
-  main .container-information .container .staff .staff-number {
-    position: absolute;
-    font-size: 25px;
+  main .information .row .number {
+    font-size: 24px;
     font-weight: 700;
-    margin: 20px 0px;
+    margin-left: 40px;
   }
-  main .container-information .container .staff .staff-role {
-    position: absolute;
+  main .information .row .role {
     font-size: 16px;
-    font-weight: 300;
-    color: black;
-    margin: 40px 5px;
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  main .information .row .role-customers {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 60px;
   }
 
-  main .container-information .container .color {
-    margin-top: 0px;
+  main .information .row .color {
     position: absolute;
-    left: -45px;
+    margin: -5% 25%;
     background-color: #ffba33;
+    border: 1px solid #ffba33;
+    border-radius: 70px;
     width: 55px;
     height: 55px;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 70px;
   }
 
-  main .container-information .container .staff .line {
-    /* background-color: #eeeff2; */
-    position: absolute;
-    height: 112px;
-    width: 3px;
-    top: -20px;
-    margin: auto 150px;
-    /* margin-top: 20px; */
-    box-shadow: 1px 0px 1px rgb(202, 199, 199);
+  .image-inf {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  main .container-information .container .staff .line .empty {
-    /* position: fixed; */
-    color: transparent;
-  }
-
-  main .container-information .container .color-stories {
-    margin-top: 0px;
-    position: absolute;
-    left: -25px;
-    background-color: #ffba33;
-    width: 55px;
-    height: 55px;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 70px;
-  }
-
-  main .container-information .container .Stories .stories-number {
-    position: absolute;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 20px 40px;
-  }
-  main .container-information .container .Stories .stories-role {
-    position: absolute;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 40px 40px;
-  }
-
-  main .container-information .container .Stories .line-stories .empty-stories {
-    /* position: fixed; */
-    color: transparent;
-  }
-
-  main .container-information .container .Stories .line-stories {
-    /* background-color: #eeeff2; */
-    position: absolute;
-    height: 112px;
-    width: 3px;
-    top: -20px;
-    margin: auto 220px;
-    /* margin-top: 20px; */
-    box-shadow: 1px 0px 1px rgb(202, 199, 199);
-  }
-
-  main .container-information .container .customer-color {
-    margin-top: 0px;
-    position: absolute;
-    left: 45px;
-    background-color: #ffba33;
-    width: 55px;
-    height: 55px;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 70px;
-  }
-
-  main .container-information .container .customer-number {
-    position: absolute;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 20px 100px;
-  }
-  main .container-information .container .customer-role {
-    position: absolute;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 40px 100px;
-  }
+  /*  */
 
   article {
     margin: 100px;
@@ -342,12 +231,14 @@
 
   article .container .row .favorite {
     background-color: white;
+    position: relative;
     border: 1px solid #dddddd;
     border-radius: 10px;
     width: 300px;
     height: 760px;
     margin: 20px 40px;
-    display: block;
+    text-align: center;
+    /* display: block; */
   }
 
   article .container .row .favorite .image {
@@ -382,25 +273,29 @@
     font-size: 18px;
   }
 
-  article .container .row .price-coffee {
+  article .container .row .coffee {
     position: absolute;
     bottom: 50px;
+    text-align: center;
   }
 
   article .container .row .all-desc .price {
     font-weight: 500;
     font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    /* left: 30px; */
   }
 
   article .container .row .all-desc .buy-coffee {
+    /* position: absolute; */
     width: 177px;
     height: 45px;
     border: 2px solid #ffba33;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    /* bottom: 0px; */
+  }
+
+  .selected {
+    background-color: #ffba33 !important;
   }
 
   article .container .row .favorite .img-favorite {
@@ -422,7 +317,8 @@
 
   footer .footer-main {
     flex: 3;
-    height: 100px;
+    /* height: 100px; */
+    top: 100px;
     text-align: left !important;
   }
 
