@@ -6,11 +6,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-  * {
-    text-align: center;
-  }
-
+@media (max-width: 576px) {
   header {
     background-color: #efeeee;
   }
@@ -245,10 +241,12 @@
     height: 500px;
     background-color: rgba(250, 250, 250, 0.946);
     padding-top: 40px;
+    width: 400px;
+    align-items: center;
   }
 
   footer .footer-main {
-    text-align-last: center;
+    /* text-align: center; */
   }
 
   footer .footer-main .profile {
@@ -308,7 +306,7 @@
 
 /* dekstop */
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .logo {
     margin-top: -10px;
     margin-right: 5px;
@@ -725,9 +723,10 @@
     color: #6a4029;
   }
   main .content .product-coffee {
-    position: absolute;
+    /* position: relative; */
     text-align: center;
     left: 0;
+    top: 0;
     padding-bottom: 30px;
   }
 
