@@ -447,6 +447,11 @@
     margin-left: 100px;
   } */
 
+  main .information-rec .row {
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+  }
   main .information-rec .row .number {
     font-size: 24px;
     font-weight: 700;
@@ -460,12 +465,13 @@
   main .information-rec .row .role-customers {
     font-size: 16px;
     margin-top: 15px;
-    margin-left: 60px;
+    margin-left: 55px;
   }
 
   main .information-rec .row .color {
     position: absolute;
     margin: -5% 25%;
+    left: 20px;
     background-color: #ffba33;
     border: 1px solid #ffba33;
     border-radius: 70px;
