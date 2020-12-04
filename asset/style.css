@@ -277,6 +277,130 @@
     margin-left: 20px;
   }
 
+  /* product detail phone */
+  main .container {
+    margin-right: 1%;
+    padding-left: 40px;
+  }
+  main .container .row {
+    position: relative;
+    text-align: center;
+  }
+  .page-detail {
+    /* margin-left: 20%; */
+    margin-right: auto;
+  }
+
+  .main .container .row .all-detail .top-payment {
+    position: absolute;
+    top: 0px;
+    /* width: 1000px; */
+  }
+
+  main .container .row .all-detail .information-detail {
+    width: 40px;
+    height: 40px;
+    align-items: center !important;
+    background-color: #6a4029;
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-left: 1px;
+  }
+
+  .information-product {
+    margin-top: 40px;
+  }
+
+  .pic-product {
+    width: 103px;
+    height: 370px;
+    border-radius: 12000px;
+  }
+
+  .all-detail {
+    border-top: 1px solid rgb(181, 181, 181);
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+
+  .information-store {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .payment-cek {
+    width: 20px;
+    height: 20px;
+  }
+
+  .group-status {
+    text-align: left;
+  }
+  .checkout {
+    margin-left: 40px;
+  }
+  .payment {
+    margin-left: 15px;
+  }
+
+  .product-information {
+    margin-top: 30px;
+  }
+
+  .title-product {
+    position: relative;
+    background-color: #6a4029;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .price-product {
+    padding-top: 7px;
+    text-align: center;
+    height: 50px;
+    color: #6a4029;
+    background-color: #ffba33;
+    top: 55px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .desc-product {
+    margin-top: 2px;
+    text-align: left;
+  }
+  .select-form {
+    margin-top: 20px;
+  }
+  .form-buy {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .add-to-cart {
+    align-items: center;
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  .input-prepend-append {
+    margin-right: 20px;
+  }
+
+  .button-payment {
+    margin-top: 30px;
+  }
+
+  .btn-payment {
+    background-color: #6a4029 !important;
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    height: 60px !important;
+    padding-top: 2px;
+    margin-bottom: 40px;
+  }
   .footer-product,
   .footer-engage {
     text-align-last: center;
@@ -375,7 +499,7 @@
     text-align: center;
   }
 
-  main .jumbotron {
+  main .index-jumbotron {
     background-image: url(./img/jumbo.png);
     position: relative;
     height: 640px;
@@ -884,7 +1008,8 @@
   }
 
   main .container .row .product-detail .information-product {
-    margin-top: 86px;
+    margin-top: 70px;
+    margin-left: -15px;
   }
 
   main .container .row .product-detail .information-store {
@@ -1022,7 +1147,84 @@
     border-radius: 10px !important;
   }
 
-  footer {
+  /* history */
+  main .jumbotron-history {
+    background-image: url("./img/history.png");
+  }
+
+  main .jumbotron-history .container {
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  main .jumbotron-history .container .title-history {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+  }
+  main .jumbotron-history .container .description-history {
+    margin-top: -10px;
+  }
+  main .jumbotron-history .container .desc-history {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+
+  main .jumbotron-history .container .row {
+    margin-top: 98px;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  main .jumbotron-history .container .row .card-history {
+    width: 450px;
+    height: 106px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: left;
+    margin-right: 90px;
+  }
+
+  .current-history {
+    width: 450px;
+    height: 106px;
+    border-radius: 30px;
+    background-color: rgba(250, 250, 250, 0.613) !important;
+    text-align: left;
+    margin-right: 90px;
+  }
+
+  .photo-history {
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 76px;
+    height: 63px;
+    border-radius: 50px;
+  }
+
+  .about-history {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 8px;
+  }
+
+  .history-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 5px;
+  }
+  .history-price {
+    font-size: 14px;
+    color: #895537;
+  }
+  .history-ordered {
+    font-size: 14px;
+    color: #895537;
+  }
+
+  main footer {
     height: 500px;
     background-color: rgba(250, 250, 250, 0.946);
     padding-top: 40px;
