@@ -430,7 +430,7 @@
     font-size: 17px;
   }
 
-  main .information {
+  main .information-rec {
     background-color: white;
     position: relative;
     margin: 0px auto;
@@ -447,23 +447,23 @@
     margin-left: 100px;
   } */
 
-  main .information .row .number {
+  main .information-rec .row .number {
     font-size: 24px;
     font-weight: 700;
     margin-left: 40px;
   }
-  main .information .row .role {
+  main .information-rec .row .role {
     font-size: 16px;
     margin-top: 15px;
     margin-left: 40px;
   }
-  main .information .row .role-customers {
+  main .information-rec .row .role-customers {
     font-size: 16px;
     margin-top: 15px;
     margin-left: 60px;
   }
 
-  main .information .row .color {
+  main .information-rec .row .color {
     position: absolute;
     margin: -5% 25%;
     background-color: #ffba33;
