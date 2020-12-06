@@ -736,6 +736,7 @@
     margin: 0px auto;
   }
   article .con-favorite .title-favorite {
+    text-align: center;
     margin: 10px auto;
     font-size: 35px;
     font-weight: 500;
@@ -744,6 +745,7 @@
     margin-bottom: 60px;
     font-size: 14px;
     font-weight: 400;
+    text-align: center;
   }
 
   article .container .row .favorite {
