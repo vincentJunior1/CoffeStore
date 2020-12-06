@@ -1570,6 +1570,185 @@
     margin-left: 11px;
   }
 
+  /* Page Profile */
+
+  .user-jumbotron {
+    background-image: url("./img/user-jumbotron.png");
+  }
+
+  main .jumbotron .usr-prof .user-profile {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 2px 4px 4px black;
+  }
+
+  main .user-details {
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+  }
+
+  .name-customer {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .photo-user {
+    line-height: 15px;
+  }
+
+  .choose-photo {
+    width: 207px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffba33;
+    color: #6a4029;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .remove-photo {
+    width: 207px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 11px;
+    background-color: #6a4029;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .edit-password {
+    margin-top: 42px;
+  }
+
+  .save-changes {
+    margin-top: 34px;
+  }
+
+  .save-change {
+    margin-left: auto;
+    margin-right: auto;
+    width: 207px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6a4029;
+  }
+
+  .button-edit {
+    width: 207px;
+    height: 44px;
+    border-radius: 20px;
+    border: 1px solid #9f9f9f;
+    background-color: white;
+    color: #6a4029;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .confirm-changes {
+    width: 207px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 11px;
+    background-color: #6a4029;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .cancel-changes {
+    width: 207px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 11px;
+    background-color: #ffba33;
+    color: #6a4029;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .log-out {
+    margin-top: 45px;
+    margin-bottom: 56px;
+  }
+
+  .logout-account {
+    width: 207px;
+    height: 44px;
+    border-radius: 20px;
+    border: 1px solid #9f9f9f;
+    background-color: white;
+    color: #6a4029;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .form-edit {
+    text-align: left;
+    align-items: left;
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 60px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .contact-user {
+    /* margin-left: 30px; */
+    margin-top: 17px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4f5665;
+  }
+  .form-contact {
+    margin-left: 30px;
+  }
+
+  .contact-type {
+    font-size: 20px;
+    color: #9f9f9f;
+  }
+
+  .form-control-plaintext:focus {
+    outline: none !important;
+  }
+
+  .form-control-plaintext {
+    border-bottom: 1px solid black !important;
+  }
+
+  .password-type {
+    margin-left: 40px;
+  }
+
+  .gender-type {
+    margin-top: 30px;
+    margin-bottom: 40px !important;
+  }
+
+  .delivery-type {
+    margin-top: 47px;
+    margin-bottom: 41px;
+  }
+
+  .name-type {
+    margin-top: 25px;
+  }
+
+  .line-bottom {
+    background-color: #6a4029;
+  }
+
+  main .jumbotron .user-details .row .photo-user .profile-pic {
+    border-radius: 100px;
+  }
+
   main footer {
     height: 500px;
     background-color: rgba(250, 250, 250, 0.946);
